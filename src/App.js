@@ -9,13 +9,13 @@ import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com?apikey=435facab'
 
-const movie1 = {
-  "Title": "Shrek the Third",
-  "Year": "2007",
-  "imdbID": "tt0413267",
-  "Type": "movie",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg"
-}
+// const movie1 = {
+//   "Title": "Shrek the Third",
+//   "Year": "2007",
+//   "imdbID": "tt0413267",
+//   "Type": "movie",
+//   "Poster": "https://m.media-amazon.com/images/M/MV5BOTgyMjc3ODk2MV5BMl5BanBnXkFtZTcwMjY0MjEzMw@@._V1_SX300.jpg"
+// }
 
 const App = () => {
 
@@ -30,12 +30,12 @@ const App = () => {
     }
 
     useEffect(() => {
-      searchMovies('Shrek');
+      searchMovies('Action');
     }, []);
 
     return (
       <div className="app">
-        <h1>MovieLand</h1>
+        <h1>MovieSearch</h1>
 
         <div className="search"> 
           <input 
